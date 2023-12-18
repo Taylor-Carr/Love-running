@@ -108,14 +108,27 @@ nav {
     width: fit-content;
     padding-right: 1rem;
 }
-#menu {
+ #menu {
     display:flex;
 }
-#menu > li {
+
+ #menu > li {
     padding-left: 1rem;
 }
 
-.nav-toggle-label {
+ .nav-toggle-label {
     display: none;
+}
+
+ #logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
+/* Main content*/
+main {
+/* Push main content down to acommodate larger header */
+margin-top:79px;
 }
 }
