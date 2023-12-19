@@ -221,7 +221,23 @@ margin-top:79px;
     width: 300px;
     right: 50px;
 }
+/* Reasons section*/
+#benefits-physical, #benefits-mental {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
 }
+
+#benefits-physical > div,
+#benefits-mental > div {
+    width: 75%;
+}
+#benefits-mental > div {
+    align-self: flex-end;
+    text-align: end;
+}
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 #menu a:hover {
