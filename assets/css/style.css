@@ -123,31 +123,30 @@ main {
 
 #reasons {
     width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
 }
 
 #reasons > h2 {
     font-size: 280%;
+    text-align:center;
+    margin-bottom: 20px;
 }
 
 
-#benefits-physical {
-
+#benefits-physical > div, 
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
-
-#benefits-mental {
-
+#benefits p {
+    padding: 20px;
 }
 
-
-
-
-
-
+#benefits hr {
+    margin: 5 0px;
+    border-top: 1px solid #3a3a3a;
+}
 /*footer*/
 
 #social-networks {
