@@ -117,6 +117,37 @@ main {
     color:#ffffff;
 }
 
+
+
+/* why love running with us? */
+
+#reasons {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reasons > h2 {
+    font-size: 280%;
+}
+
+
+#benefits-physical {
+
+}
+
+
+#benefits-mental {
+
+}
+
+
+
+
+
+
 /*footer*/
 
 #social-networks {
