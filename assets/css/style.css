@@ -223,6 +223,15 @@ main {
     color:#3a3a3a;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+#photos {
+    column-count: 2;
+    column-gap: 0;
+    }
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px ) {
 /* Header */
@@ -250,6 +259,12 @@ nav {
     line-height: 75px;
     margin: 0 0.5rem;
 }
+/*Gallery photos*/
+#photos {
+    column-count: 3;
+}
+
+
 
 /* Main content*/
 main {
@@ -283,6 +298,10 @@ margin-top:79px;
 @media screen and (min-width: 992px) {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+}
+/*Gallery photos*/
+#photos {
+    column-count: 4;
 }
     }
 
