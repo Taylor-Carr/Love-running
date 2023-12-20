@@ -244,3 +244,32 @@ margin-top:79px;
     border-bottom: 1px solid #3a3a3a;
 }
     }
+
+@media screen and (min-width: 1200px) {
+
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        align-self: flex-end;
+    }
+}
